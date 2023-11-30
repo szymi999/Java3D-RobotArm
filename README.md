@@ -3,9 +3,11 @@ Ramię robota z 6. stopniami swobody zaprogramowane w języku Java z wykorzystan
 
 <b>Miałem do wykonania manipulator z sześcioma stopniami swobody.</b>
 Miał przypominać ramię pokazane na rysunku poniżej
+<br>
 ![image](https://github.com/szymi999/Java3D-RobotArm/assets/52047025/3302995a-fff8-499f-93b7-076e5b104060)
 
 W projekcie stworzyłem świat, na środku którego jest hala a w niej zaprojektowany manipulator. Obok leży kula, którą ramię może podnieść i przenieść. Wszystko wygląda następująco:
+<br>
 ![image](https://github.com/szymi999/Java3D-RobotArm/assets/52047025/56f1e2c7-7f01-4098-95e1-7fda7065da18)
 
 <b>Co znajduje się w programie</b>
@@ -23,4 +25,5 @@ miejscu to w konsoli zostanie wypisane, że nie było obiektu do złapania
 - Program zawiera detekcję kolizji, czyli klasę CollisionDetector dziedziczącą po Behavior. Wykrywa ona kolizję z kulką lub z podłożem. Gdy jest kolizja to blokuje ona ruch manipulatora w kierunku, w którym ostatnio się poruszał
 
 <b>Struktura programu:</b>
+<br>
 ![image](https://github.com/szymi999/Java3D-RobotArm/assets/52047025/eacacbda-15db-428a-8a5f-89fe4a98b2d4)
